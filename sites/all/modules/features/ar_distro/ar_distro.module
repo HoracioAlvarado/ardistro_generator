@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the AR Distro feature.
+ */
+
+include_once 'ar_distro.features.inc';

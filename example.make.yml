@@ -1,0 +1,18 @@
+core: 7.x
+api: 2
+# If all projects or libraries share common attributes, the `defaults`
+# array can be used to specify these globally, rather than
+# per-project.
+
+defaults:
+  projects:
+    subdir: "contrib"
+projects:
+  drupal:
+    version: '7.43'
+  ardistro:
+    type: "profile"
+    subdir: ""
+    download:
+      type: "copy" # Note, 'git' is the default, no need to specify.
+      url: "../ardistro"
